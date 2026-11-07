@@ -1,0 +1,28 @@
+{
+  "name": "pixoraagoods-adhd-budget-planner",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PixoraaGoods ADHD Budget Planner: a calm, offline-capable budgeting PWA. Your Money, Made Simpler.",
+  "license": "UNLICENSED",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "build:demo": "APP_MODE=demo node scripts/build.mjs",
+    "build:customer": "APP_MODE=customer node scripts/build.mjs",
+    "serve": "node scripts/serve.mjs",
+    "test:unit": "node scripts/build.mjs --tests && node dist-tests/calc.test.mjs",
+    "test:e2e": "node tests/e2e.mjs"
+  },
+  "dependencies": {
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "react-icons": "5.7.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "tailwindcss": "4.3.3"
+  }
+}

@@ -1,0 +1,23 @@
+# Dependencies and build output
+node_modules/
+dist/
+dist-*/
+*.log
+
+# Secrets: never commit these
+.env
+.env.*
+!.env.example
+*.pem
+.vercel/
+
+# Local data / exports (may contain personal financial information)
+*backup*.json
+*.csv
+customer-data/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

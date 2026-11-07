@@ -1,0 +1,8 @@
+Fonts included in this app (subset to Latin characters, converted to WOFF):
+
+- Inter, by Rasmus Andersson and the Inter project authors. https://rsms.me/inter/
+- Lora, by Cyreal (Olga Karpushina) and the Lora project authors. https://github.com/cyrealtype/Lora-Cyrillic
+
+Both are licensed under the SIL Open Font License, Version 1.1.
+Full licence text: https://openfontlicense.org/open-font-license-official-text/
+The fonts may be bundled, embedded and redistributed with software, but may not be sold by themselves.
